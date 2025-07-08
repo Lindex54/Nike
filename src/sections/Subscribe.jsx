@@ -3,12 +3,16 @@ const Subscribe = () => {
     <section
       className="
     max-container flex 
-    jusitfy-between 
+    justify-between 
     items-center 
     max-lg:flex-col 
     gap-10"
+      id="contact-us"
     >
-      Subscribe
+      <h3>
+        Sign Up for
+        <span> Updates</span> & Newsletters
+      </h3>
     </section>
   );
 };
